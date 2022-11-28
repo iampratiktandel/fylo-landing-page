@@ -25,6 +25,9 @@ body {
   width: 100%;
   font-size: 14px;
   color: var(--white);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .wrapper {
