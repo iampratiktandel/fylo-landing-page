@@ -64,6 +64,7 @@ body {
 .container {
   padding: 40px 30px;
   max-width: 700px;
+  position: relative;
 }
 /* /Wrapper & Container */
 
@@ -243,6 +244,7 @@ body {
 /* Testimonials */
 .testimonials {
   padding-top: 270px;
+  padding-bottom: 540px;
 }
 
 .testimonials__card {
@@ -278,8 +280,13 @@ body {
 .subscription {
   background-color: var(--dark-blue-200);
   padding: 80px 60px;
+  margin-left: -40px;
   border-radius: 20px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 720px;
+  position: absolute;
+  bottom: 1650px;
 }
 
 .subscription__title {
@@ -294,6 +301,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   line-height: 43px;
+  text-align: center;
 }
 
 .subscription__form__input {
@@ -334,7 +342,9 @@ body {
 
 /* Footer */
 .footer {
-  padding: 80px 60px;
+  padding: 0 60px;
+  padding-top: 500px;
+  padding-bottom: 80px;
   background-color: var(--dark-blue-secondary);
 }
 
